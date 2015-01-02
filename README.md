@@ -3,6 +3,8 @@ f90nml_functions.sh
 
 bash functions for retrieving and replacing Fortran namelist parameter values
 
+example fortran 90 namelist file
+
 ```
 &testnml
 TREAL =  1.,
@@ -13,7 +15,7 @@ TBOOL = T,
 &end
 ```
 
-usage: replace_namelist_value \<namelist file\> \<parameter\> \<new value\>
+replace_namelist_value \<namelist file\> \<parameter\> \<new value\>
 
 ```bash
 > replace_namelist_value "testnml" "TREAL" "2."
@@ -21,7 +23,7 @@ usage: replace_namelist_value \<namelist file\> \<parameter\> \<new value\>
  > TREAL=2.,
 ```
 
-usage: get_namelist_value \<namelist file\> \<parameter\>
+get_namelist_value \<namelist file\> \<parameter\>
 
 ```bash
 > get_namelist_value  "testnml" "TBOOL"
