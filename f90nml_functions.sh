@@ -60,7 +60,6 @@ if [ ! x"$msg1" == "x"  ]; then
 
   msg2=$(grep "$NMLPARAM" $NMLTMP )
 
-  echo "Modifying namelist file $NMLFILE"
   echo "${txtwht}${bakred}< ${msg1}${txtrst}"
   echo "${txtwht}${bakgrn}> ${msg2}${txtrst}"
 
