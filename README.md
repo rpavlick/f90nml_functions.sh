@@ -15,13 +15,13 @@ TBOOL = T,
 
 ```bash
 > replace_namelist_value "testnml" "TREAL" "2."
-< TREAL =  1.,
-> TREAL=2.,
+ < TREAL =  1.,
+ > TREAL=2.,
 ```
 
 ```bash
 > get_namelist_value  "testnml" "TBOOL"
-T
+ T
 ```
 
 
