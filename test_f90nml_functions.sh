@@ -11,8 +11,6 @@ TBOOL = T,
 &end
 EOF
 
-define_colors
-
 echo "usage: replace_namelist_value <namelist file> <parameter> <new value>"
 echo "example: replace_namelist_value \"testnml\" \"TREAL\" \"2.\""
 echo
