@@ -21,6 +21,15 @@ replace_namelist_value \<namelist file\> \<parameter\> \<new value\>
 > replace_namelist_value "testnml" "TREAL" "2."
  < TREAL =  1.,
  > TREAL=2.,
+
+> cat testnml 
+ &testnml
+ TREAL=2.,
+ TINTEGER = 2,
+ TCOMPLEX = (3.,4.),
+ TCHAR = 'namelist',
+ TBOOL = T,
+ &end
 ```
 
 get_namelist_value \<namelist file\> \<parameter\>
