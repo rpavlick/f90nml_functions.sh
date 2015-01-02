@@ -1,7 +1,7 @@
 f90nml_functions.sh
 ===================
 
-Bash functions for retrieving and replacing Fortran namelist parameter values
+bash functions for retrieving and replacing Fortran namelist parameter values
 
 ```
 &testnml
