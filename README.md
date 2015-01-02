@@ -13,7 +13,7 @@ TBOOL = T,
 &end
 ```
 
-usage: replace_namelist_value <namelist file> <parameter> <new value>
+usage: replace_namelist_value \<namelist file\> \<parameter\> \<new value\>
 
 ```bash
 > replace_namelist_value "testnml" "TREAL" "2."
@@ -21,7 +21,7 @@ usage: replace_namelist_value <namelist file> <parameter> <new value>
  > TREAL=2.,
 ```
 
-usage: get_namelist_value <namelist file> <parameter>
+usage: get_namelist_value \<namelist file\> \<parameter\>
 
 ```bash
 > get_namelist_value  "testnml" "TBOOL"
